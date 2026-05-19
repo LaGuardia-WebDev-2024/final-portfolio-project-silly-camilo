@@ -49,16 +49,21 @@ day !!! cheers loudly -->
 
       .contain{
         display: flex;
+        margin: auto;
         flex-direction: row;
         flex-wrap: nowrap;
+        align-items: space-between;
+        width: 80%;
       }
 
       .buttons{
-        display: block;
-        margin: auto;
         margin-right: 30px;
-        height: 30px;
+        width: 20%;
       }
+        .buttons:hover{
+          width: 22%;
+        }
+
 
     </style>
   </head>
@@ -69,12 +74,12 @@ day !!! cheers loudly -->
     
     <div class="parallax"></div>
 
-    
-    <img src="img/Kaito_chibi.png">
-    <img src="img/Kaito_chibi.png">
-    <img src="img/Kaito_chibi.png">
-    <img src="img/Kaito_chibi.png">
-
+    <div class="contain">
+    <img class="buttons" src="img/Kaito_chibi.png">
+    <img class="buttons" src="img/Kaito_chibi.png">
+    <img class="buttons" src="img/Kaito_chibi.png">
+    <img class="buttons" src="img/Kaito_chibi.png">
+    </div>
     
    
   </body>
