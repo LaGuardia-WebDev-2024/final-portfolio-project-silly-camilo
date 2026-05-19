@@ -9,7 +9,7 @@ body {
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
 https://www.w3schools.com/css/css_navbar_horizontal.asp */
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ li a:hover:not(.active) {
 
 .active {
   background-color: red;
-}
+} */
 
 h1 {
   width: 100%;
