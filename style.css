@@ -44,6 +44,11 @@ li a:hover:not(.active) {
 h1 {
   width: 100%;
   font-family: "Fascinate Inline";
+  color: white;
+  width: fit-content;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 p{
