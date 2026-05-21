@@ -45,6 +45,7 @@ h1 {
   width: 100%;
   font-family: "Fascinate Inline";
   color: white;
+  background-color: rgb(255, 198, 233);
   width: fit-content;
   margin-left: 20px;
   padding: 20px;
@@ -59,3 +60,26 @@ p{
   padding: 20px;
   border-radius: 20px;
 }
+
+.contain{
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-items: space-between;
+        width: 80%;
+      }
+
+      .buttons{
+        width: 60%;
+        display: block;
+        margin: auto;
+      }
+
+      .buttons:hover{
+          width: 65%;
+        }
+
+
+
+        
