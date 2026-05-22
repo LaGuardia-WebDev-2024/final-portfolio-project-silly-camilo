@@ -19,6 +19,7 @@
       width: fit-content;
       max-width: 80%;
       margin: auto;
+      margin-bottom: 20px;
     }
 
     .parallax {
@@ -35,6 +36,38 @@
         background-size: cover;
         margin-top: none;
       }
+
+      .collection{
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+        flex-direction: row;
+        max-width: 80%;
+        flex-wrap: wrap;
+      }
+
+      .bebe{
+        width: 23%;
+        flex-direction: column;
+      }
+
+      .um{
+        border-radius: 20px;
+        width: 100%;
+      }
+
+      .info{
+        width: fit-content;
+        background-color: rgb(255, 241, 215);
+        border: 2px solid rgb(141, 152, 255);
+        padding: 10px;
+        color: rgb(141, 152, 255);
+      }
+        .info:hover{
+          background-color:  rgb(255, 198, 233);
+          color: white;
+          font-weight: bold;
+        }
     </style>
   </head>
   <body>
@@ -44,6 +77,21 @@
     <p>
       i love kaito so much!!!!!!!
     </p>
+
+    <div class="collection">
+      <div class="bebe">
+        <img class="um" src="img/DECORA KAITO.png">
+        <p class="info"> NAME HERE </p>
+      </div>
+      <div class="bebe">
+        <img class="um" src="img/DECORA KAITO.png">
+        <p class="info"> NAME HERE </p>
+      </div>
+      <div class="bebe">
+        <img class="um" src="img/DECORA KAITO.png">
+        <p class="info"> NAME HERE </p>
+      </div>
+    </div>
 
     <div class="contain">
     <a class="test" href="index copy.html">
