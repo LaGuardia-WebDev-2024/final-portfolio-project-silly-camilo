@@ -68,28 +68,69 @@
           color: white;
           font-weight: bold;
         }
+
+      #colInfo{
+        background-color: rgb(255, 241, 215);
+        border: 2px solid rgb(141, 152, 255);
+        padding: 10px;
+        color: rgb(141, 152, 255);
+      }
+
+      .containAgain{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 80%;
+      margin: auto;
+    }
+
+    #silly{
+      width: 40%;
+    }
     </style>
   </head>
   <body>
     <div class="parallax"></div>
     <h1>MEET THE KAITOS</h1>
 
-    <p>
-      i love kaito so much!!!!!!!
-    </p>
+    <div class="containAgain">
+      <img id="silly" src="img/DECORA KAITO.png">
+      <p id="intro">
+        i love kaito so much!!!!!!!
+      </p>
+    </div>
+
+    <p id="colInfo"> </p>
 
     <div class="collection">
       <div class="bebe">
         <img class="um" src="img/DECORA KAITO.png">
-        <p class="info"> NAME HERE </p>
+        <p class="info" id="1"> NAME HERE </p>
       </div>
       <div class="bebe">
         <img class="um" src="img/DECORA KAITO.png">
-        <p class="info"> NAME HERE </p>
+        <p class="info" id="2"> NAME HERE </p>
       </div>
       <div class="bebe">
         <img class="um" src="img/DECORA KAITO.png">
-        <p class="info"> NAME HERE </p>
+        <p class="info" id="3"> NAME HERE </p>  
+      </div>
+      <div class="bebe">
+        <img class="um" src="img/DECORA KAITO.png">
+        <p class="info" id="4"> NAME HERE </p>
+      </div>
+      <div class="bebe">
+        <img class="um" src="img/DECORA KAITO.png">
+        <p class="info" id="5"> NAME HERE </p>
+      </div>
+      <div class="bebe">
+        <img class="um" src="img/DECORA KAITO.png">
+        <p class="info" id="6"> NAME HERE </p>  
+      </div>
+      <div class="bebe">
+        <img class="um" src="img/DECORA KAITO.png">
+        <p class="info" id="6"> NAME HERE </p>  
       </div>
     </div>
 
@@ -107,5 +148,21 @@
       <img class="buttons" src="img/Kaito_chibi.png">
     </a>
     </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+
+      $("#colInfo").hide();
+      $("#silly").hide();
+
+      $("#1").click(function (){
+        $("#intro").hide();
+        $("#silly").attr("src", "img/Kaito_chibi.png").fadeIn();
+        $("#colInfo").html("name: kaito <br> species: nuigurumi <br> background: sillysilly").fadeIn();
+      })
+
+
+    </script>
   </body>
 </html>
