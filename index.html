@@ -1,13 +1,13 @@
 <!-- Final Project
 Requirements
-[  ] Customized HTML Page #1
-[  ] Customized HTML Page #2 
-[  ] Customized HTML Page #3
-[  ] Customized HTML Page #4
+[  yes] Customized HTML Page #1
+[yes  ] Customized HTML Page #2 
+[ yes ] Customized HTML Page #3
+[ yes ] Customized HTML Page #4
 
 Select ONE Additional Feature to Add  
 [ yes ] Feature 1 - Google Font
-[ no ] Feature 2 - Include jQuery
+[ yes ] Feature 2 - Include jQuery
 [ no ] Feature 3 - Embed Code from Spotify/Google Docs/YouTube
 [ yes ] Feature 4 - Customized HTML Page #5
 -->
@@ -35,10 +35,10 @@ day !!! cheers loudly -->
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
       .parallax {
         /* The image used */
-        background-image: url("CS_Ed_Week_2025.jpg");
+        background-image: url("img/pastel-cards.gif");
 
         /* Set a specific height */
-        min-height: 300px;
+        min-height: 200px;
 
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
@@ -46,70 +46,72 @@ day !!! cheers loudly -->
         background-repeat: no-repeat;
         background-size: cover;
       }
-      .textblock {
-        min-height: 500px;
-        background-color: black;
-        color: white;
-      }
-      .parent-flex {
-        display: flex;
-      }
-      .child-flex {
-        background-color: green;
-        margin: 30px;
-        padding: 10px;
-        text-align: justify;
-      }
-      .para-1{
-        display: flex;
-        align-items: center;
-      }
+
+
+    body{
+      background-color: rgb(255, 231, 246);
+    }
+
+    p{
+      background-color: rgb(255, 198, 233);
+      color: white;
+      width: 40%;
+      margin: 0px;
+      padding: 30px;
+    }
+
+    .containAgain{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 80%;
+      margin: auto;
+    }
+
+    #silly{
+      width: 40%;
+      border-radius: 20px;
+      border: 5px white double;
+    }
+
+
     </style>
   </head>
   <body>
-    <!-- ⬆⬆⬆⬆ Nav Bar -->
-
-    <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2025-2026</h1>
+    
     <div class="parallax"></div>
+    <h1>
+      haiiii :3 welcome
+    </h1>
+
+    <div class="containAgain">
+      <p>
+        speaking  speaking  speaking vvv speaking  speaking  speaking  speaking talk 
+        speaking  speaking  speaking vvv speaking  speaking  speaking  speaking 
+        speaking  speaking  speaking vvv speaking  speaking  speaking  speaking 
+        speaking  speaking  speaking vvv speaking  speaking  speaking  speaking  
+      </p>
+      <img id="silly" src="img/DECORA KAITO.png">
+    </div>
+
     <div class="contain">
-    <a class="test" href="index copy.html">
+    <a href="kaitos.html">
       <img class="buttons" src="img/Kaito_chibi.png">
     </a>
-    <a class="test" href="aboutme.html">
+    <a href="art.html">
       <img class="buttons" src="img/Kaito_chibi.png">
     </a>
-    <a class="test" href="art.html">
+    <a href="coding.html">
       <img class="buttons" src="img/Kaito_chibi.png">
     </a>
-    <a class="test" href="resume.html">
+    <a href="music.html">
       <img class="buttons" src="img/Kaito_chibi.png">
     </a>
     </div>
 
-    <div class="textblock parent-flex">
-      <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
-      <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
-    </div>
+    
+   
   </body>
 </html>

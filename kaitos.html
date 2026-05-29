@@ -69,56 +69,65 @@
           font-weight: bold;
         }
 
-      #colInfo{
-        background-color: rgb(255, 241, 215);
-        border: 2px solid rgb(141, 152, 255);
-        padding: 10px;
-        color: rgb(141, 152, 255);
-      }
-
       .containAgain{
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
+      align-items: center;
       flex-direction: row;
       flex-wrap: nowrap;
-      width: 80%;
       margin: auto;
+      margin-bottom: 20px;
+      width: 80%;
     }
 
     #silly{
       width: 40%;
+      margin: 5px;
+      border-radius: 20px;
+      border: 8px double white;
     }
+
+    #colInfo{
+      background-color: rgb(255, 247, 233);
+      border: 6px dotted rgb(255, 198, 233);
+      padding: 30px;
+      color: rgb(141, 152, 255);
+      margin: 5px;
+    }
+
     </style>
   </head>
   <body>
     <div class="parallax"></div>
     <h1>MEET THE KAITOS</h1>
 
-    <div class="containAgain">
-      <img id="silly" src="img/DECORA KAITO.png">
-      <p id="intro">
+    <p id="intro">
         i love kaito so much!!!!!!!
       </p>
+
+    <div class="containAgain">
+      <img id="silly" src="">
+      <p id="colInfo"> </p>
     </div>
 
-    <p id="colInfo"> </p>
+    
 
     <div class="collection">
       <div class="bebe">
         <img class="um" src="img/DECORA KAITO.png">
-        <p class="info" id="1"> NAME HERE </p>
+        <p class="info" id="1"> kaito </p>
       </div>
       <div class="bebe">
         <img class="um" src="img/DECORA KAITO.png">
-        <p class="info" id="2"> NAME HERE </p>
+        <p class="info" id="2"> kaitote </p>
       </div>
       <div class="bebe">
         <img class="um" src="img/DECORA KAITO.png">
-        <p class="info" id="3"> NAME HERE </p>  
+        <p class="info" id="3"> pato kaito </p>  
       </div>
       <div class="bebe">
         <img class="um" src="img/DECORA KAITO.png">
-        <p class="info" id="4"> NAME HERE </p>
+        <p class="info" id="4"> kaitito </p>
       </div>
       <div class="bebe">
         <img class="um" src="img/DECORA KAITO.png">
@@ -135,16 +144,16 @@
     </div>
 
     <div class="contain">
-    <a class="test" href="index copy.html">
-      <img class="buttons" src="img/Kaito_chibi.png">
-    </a>
-    <a class="test" href="aboutme.html">
-      <img class="buttons" src="img/Kaito_chibi.png">
-    </a>
     <a class="test" href="art.html">
       <img class="buttons" src="img/Kaito_chibi.png">
     </a>
-    <a class="test" href="resume.html">
+    <a class="test" href="coding.html">
+      <img class="buttons" src="img/Kaito_chibi.png">
+    </a>
+    <a class="test" href="music.html">
+      <img class="buttons" src="img/Kaito_chibi.png">
+    </a>
+    <a class="test" href="index.html">
       <img class="buttons" src="img/Kaito_chibi.png">
     </a>
     </div>
@@ -157,6 +166,12 @@
       $("#silly").hide();
 
       $("#1").click(function (){
+        $("#intro").hide();
+        $("#silly").attr("src", "img/DECORA KAITO.png").fadeIn();
+        $("#colInfo").html("name: kaito <br> species: nuigurumi <br> background: sillysilly").fadeIn();
+      })
+
+      $("#2").click(function (){
         $("#intro").hide();
         $("#silly").attr("src", "img/Kaito_chibi.png").fadeIn();
         $("#colInfo").html("name: kaito <br> species: nuigurumi <br> background: sillysilly").fadeIn();
