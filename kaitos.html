@@ -103,8 +103,11 @@
     <div class="parallax"></div>
     <h1>MEET THE KAITOS</h1>
 
-    <p id="intro">
+      <p class="intro">
         i love kaito so much!!!!!!!
+      </p>
+      <p>
+        click on their names below to find out more about them!!!!!!
       </p>
 
     <div class="containAgain">
@@ -128,7 +131,7 @@
         <p class="info" id="3"> pato kaito </p>  
       </div>
       <div class="bebe">
-        <img class="um" style="width: 60%; margin-left: 15px;" src="img/kaitito.png">
+        <img class="um" src="img/DECORA KAITO.png">
         <p class="info" id="4"> kaitito </p>
       </div>
       <div class="bebe">
@@ -180,13 +183,13 @@
       $("#silly").hide();
 
       $("#1").click(function (){
-        $("#intro").hide();
+        $(".intro").hide();
         $("#silly").attr("src", "img/DECORA KAITO.png").fadeIn();
         $("#colInfo").html("name: kaito <br> species: nuigurumi <br> background: sillysilly").fadeIn();
       })
 
       $("#2").click(function (){
-        $("#intro").hide();
+        $(".intro").hide();
         $("#silly").attr("src", "img/Kaito_chibi.png").fadeIn();
         $("#colInfo").html("name: kaito <br> species: nuigurumi <br> background: sillysilly").fadeIn();
       })
